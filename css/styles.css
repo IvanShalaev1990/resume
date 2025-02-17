@@ -1,0 +1,245 @@
+/*Body*/
+body {
+    background: #f6f6fa;
+    padding: 40px 40px 40px 40px;
+    font-family: "Montserrat", serif;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*Wrapper*/
+.wrapper {
+    background: #fff;;
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/*Sidebar*/
+.sidebar {
+    box-sizing: border-box;
+    width: 370px;
+    background: #e0ebfe;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sidebar_content {
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/*Contacts container*/
+.contacts_container {
+    margin-bottom: 40px;
+}
+.contasts_hedder {
+    color: #161d2a;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.contacts_type {
+    color: #161d2a;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 8px;
+}
+.contacts_link {
+    color: #2979ff;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+.contacts_item {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+.github {
+    margin-left: 20px;
+}
+.linkedin {
+    margin-left: 20px;
+}
+.telegram {
+    margin-left: 20px;
+}
+/*Skils container*/
+.skills_container {
+    margin-bottom: 40px;
+}
+.skills_hedder {
+    color: #161d2a;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.skills_list {
+    padding-left: 16px;
+}
+.skills_list_item {
+    color: #161d2a;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+}
+/*Main content*/
+.main_content {
+    box-sizing: border-box;
+    padding: 88px 80px 40px 80px;
+    max-width: 830px;
+}
+/*My info*/
+.my_info {
+    margin-bottom: 40px;
+}
+.my_profession {
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.my_name {
+    color: #000;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+.summary {
+    color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+/*Projects*/
+.projects {
+    margin-bottom: 40px;
+}
+.projects_hedder {
+    color: #000;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.projects_list_item {
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+.projects_list {
+    padding-left: 16px;
+}
+.projects_list_item_link {
+    color: #005fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+.projects_list_item_description {
+    color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+/*Work expiriance*/
+.work_expirience {
+    margin-bottom: 40px;
+}
+.work_expirience_company {
+    margin-bottom: 12px;
+}
+.work_expirience_hedder {
+    color: #000;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.work_expirience_company_position {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+.work_expirience_company_name {
+    color: #6d9bf5;
+}
+.work_expirience_company_period {
+    color: #a8a8a8;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 8px;
+}
+.work_expirience_company_period_separation {
+    color: #000;
+}
+.work_expirience_company_duties_list {
+    padding-left: 16px;
+}
+.work_expirience_company_duties_list_item {
+    color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.work_expirience_company_description {
+    color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*Education*/
+.education_hedder {
+    color: #000;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.education_university {
+    margin-bottom: 12px;
+}
+.education_university_hedder {
+    color: #6d9bf5;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.education_university_specialization {
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.education_university_period {
+    color: #a8a8a8;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.education_university_period_separator {
+    color: #000;
+}
